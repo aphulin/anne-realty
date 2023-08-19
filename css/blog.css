@@ -191,7 +191,7 @@ h4 {
 }
 
 /* MOBILE VIEW */
-@media only screen and (max-width: 934px) {
+@media only screen and (max-width: 1135px) {
     .content {
         width: 100%;
     }
@@ -204,7 +204,7 @@ h4 {
     }
     .content .sidebar {
         width: 100%;
-        padding: 10px;
+        padding-left: 95px;
     }
     .content .sidebar .section.search {
         margin-top: 30px;
