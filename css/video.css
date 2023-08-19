@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.video-wrapper {
+    padding-top: 170px;
+    min-height: 100%;
+}
+
+.video-wrapper h1 {
+    text-align: center;
+}
+
+.video-wrapper .video-list .video-item h2 {
+    font-size: 19px;
+}
+
+.video-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+/* Additional styling for video items */
+.video-item {
+    padding: 10px;
+    text-align: center;
+}
+
+.video-item video {
+    max-width: 100%;
+}
+
+/* Additional styling for responsive layout */
+@media (max-width: 768px) {
+    .video-list {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
