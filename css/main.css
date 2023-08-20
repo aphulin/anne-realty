@@ -384,6 +384,11 @@ footer .footer-bottom {
 }
 
 /* TABLET VIEW */
+@media screen and (max-width: 1525px) {
+  .header-main-nav ul li a {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 1325px) /* WAS 1525px */
 {
     /* hide navigation text */
