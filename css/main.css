@@ -384,7 +384,7 @@ footer .footer-bottom {
 }
 
 /* TABLET VIEW */
-@media screen and (max-width: 1525px)
+@media screen and (max-width: 1325px) /* WAS 1525px */
 {
     /* hide navigation text */
     .header-main-nav,
