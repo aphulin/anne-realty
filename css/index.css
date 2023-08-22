@@ -194,6 +194,15 @@ main .main-quotes {
     transform: scale(1.1);
 }
 
+@media (max-width: 1600px) {
+    main a {
+        margin-bottom: 350px;
+    }
+    main .main-quotes p {
+        margin-bottom: 200px;
+    }
+}
+
 /* Styles for mobile screens */
 @media (max-width: 768px) {
     main {
