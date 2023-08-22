@@ -235,10 +235,8 @@ main .main-quotes {
         max-width: 200px;
     }
 
-    main .main-quotes p {
-        border-left: none;
-        padding-left: 0;
-        margin: 30px 0;
+    main .main-quotes {
+        display: none;
     }
 
     .index-category {
@@ -293,11 +291,5 @@ main .main-quotes {
         width: 100%;
         max-width: 200px;
         margin: 20px auto 0;
-    }
-}
-
-@media (max-width: 520px) {
-    main .main-quotes {
-        display: none;
     }
 }
