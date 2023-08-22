@@ -52,6 +52,7 @@ main a {
     padding: 0 20px;
     width: fit-content;
     transition: 0.3s ease;
+    margin-bottom: 100px;
 }
 
 main a:hover {
@@ -67,8 +68,6 @@ main .main-quotes p {
 
 main .main-quotes {
     position: relative;
-    top: 10vh;
-    padding-bottom: 5px;
     padding-left: 100px;
 }
 
