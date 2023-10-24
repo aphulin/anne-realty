@@ -107,6 +107,22 @@ h4 {
     position: relative;
 }
 
+.content .main-content .post .video-tour {
+    position: absolute;
+    bottom: 10px;
+    right: 200px;
+    border: 1px solid var(--site-color-01);
+    background: transparent;
+    border-radius: 0px;
+    color: var(--site-color-01) !important;
+}
+
+.content .main-content .post .video-tour:hover {
+    background: var(--site-color-01);
+    color: white !important;
+    transition: .25s;
+}
+
 .content .main-content .post .read-more {
     position: absolute;
     bottom: 10px;
@@ -220,11 +236,12 @@ h4 {
     }
     .content .main-content .post .post-preview {
         width: 100%;
+        padding-bottom: 50px;
     }
-    .content .main-content .post .read-more {
+    .content .main-content .post .read-more .video-tour {
         position: static;
         display: block;
-        width: 100%;
+        width: 50%;
         text-align: center;
     }
 }
