@@ -218,19 +218,22 @@ justify-content: center;
 }
 
 .header-main-social-fh {
-    width: 20px;
-    height: 20px;
+    padding-top: 10px;
+    width: 25px;
+    height: 25px;
     background-image: url(../img/social_icon/fairhousing.png);
     background-repeat: no-repeat;
     background-size: cover;
     transition: 0.3s ease;
 }
 
+/*
 .header-main-social-fh:hover {
     background-image: url(../img/social_icon/fairhousing_hover.png);
     width: 25px;
     height: 25px;
 }
+*/
 
 .header-phone {
     font-size: 19px;
@@ -383,11 +386,21 @@ footer .footer-bottom {
   gap: 10px;
 }
 
+
+
 /* TABLET VIEW */
 @media screen and (max-width: 1525px) {
   .header-main-nav ul li a {
     font-size: 16px;
+    padding: 0px 0px;
   }
+  .header-main-social {
+    padding-left: 50px;
+  }
+  .header-main-logo {
+    gap: 50px;
+  }
+  
 }
 @media screen and (max-width: 1325px) /* WAS 1525px */
 {

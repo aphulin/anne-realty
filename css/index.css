@@ -194,14 +194,26 @@ main .main-quotes {
     transform: scale(1.1);
 }
 
+/* LAPTOP VIEW */
 @media (max-width: 1600px) {
+    main {
+        height: 100%
+    }
     main a {
-        margin-bottom: 350px;
+        margin-bottom: 550px;
+        font-size: 18px;
     }
     main .main-quotes p {
-        margin-bottom: 200px;
+        margin-bottom: 300px;
+    }
+    main .main-intro {
+        padding-top: 225px;
+    }
+    main .main-intro h1, .main-intro p, .main-quotes p {
+        font-size: 26px;
     }
 }
+
 
 /* Styles for mobile screens */
 @media (max-width: 768px) {
