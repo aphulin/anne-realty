@@ -16,3 +16,8 @@
     text-align: center;
     padding-bottom: 15px;
 }
+
+.content .main-content .post .post-preview .preview-text-listing {
+    line-height: 20px;
+    font-size: 12px;
+}
