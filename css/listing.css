@@ -19,5 +19,9 @@
 
 .content .main-content .post .post-preview .preview-text-listing {
     line-height: 20px;
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.content .main-content .post .post-preview .preview-text-listing a {
+    font-size: 10px;
 }
